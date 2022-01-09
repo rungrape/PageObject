@@ -22,7 +22,7 @@ def get_browser_driver(pytestconfig, autouse=True):
 	# --
 	options = webdriver.ChromeOptions()
 	options.add_experimental_option('prefs', {'intl.accept_languages': lang})
-	browser = webdriver.Chrome(chrome_options=options)
+	browser = webdriver.Chrome(options=options)
 	# --
 	yield browser
 	browser.quit()
