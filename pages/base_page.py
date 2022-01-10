@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 class BasePage(object):
 	"""web page basic class"""
-	def __init__(self, url, driver, timeout=5):
+	def __init__(self, url, driver, timeout=3):
 		'''
 		input:
 			url - page url
@@ -15,6 +15,14 @@ class BasePage(object):
 		self.url = url
 		self.driver = driver
 		self.driver.implicitly_wait(timeout)
+
+	def get_elem(self, selector):
+		r = None
+		try:
+			r = self.driver.find_element(By.CSS_SELECTOR, selector)
+		except exceptions.NoSuchElementException:
+			pass
+		return r
 
 	def open(self):
 		self.driver.get(self.url)
