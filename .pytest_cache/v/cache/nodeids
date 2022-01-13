@@ -1,0 +1,20 @@
+[
+  "test_custom_negative.py::test_guest_cant_see_success_message",
+  "test_custom_negative.py::test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "test_custom_negative.py::test_message_disappeared_after_adding_product_to_basket",
+  "test_custom_ny_promo_page.py::test_guest_can_add_product_to_basket",
+  "test_login_page.py::test_guest_can_do_login",
+  "test_login_page.py::test_guest_can_go_to_login_page",
+  "test_main_page.py::test_guest_can_go_to_login_page",
+  "test_promos.py::test_guest_can_add_product_to_basket",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer0]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer2]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer3]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer5]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer6]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer7]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer8]",
+  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9]"
+]
