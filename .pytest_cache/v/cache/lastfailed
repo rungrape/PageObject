@@ -1,5 +1,0 @@
-{
-  "test_login_page.py::test_guest_can_go_to_login_page": true,
-  "test_promos.py::test_guest_can_add_product_to_basket": true,
-  "test_promos.py::test_promos[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer7]": true
-}
