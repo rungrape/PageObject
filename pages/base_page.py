@@ -30,9 +30,7 @@ class BasePage(object):
 			WebDriverWait(self.driver, timeout, 1, exceptions.TimeoutException).until(\
 				EC.presence_of_element_located((By.CSS_SELECTOR, selector)))
 		except exceptions.TimeoutException:
-			print (111111111111111111111111)
 			return True
-		print(0000000000000000000000)
 		return False
 
 	def is_element_present(self, selector):
